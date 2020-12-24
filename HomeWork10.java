@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class HomeWork10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите количество строк");
+        System.out.println("Введите количество строк:");
         int rows = scanner.nextInt();
-        System.out.println("Введите количество столбцов");
+        System.out.println("Введите количество столбцов:");
         int columns = scanner.nextInt();
         int[][] matrix = new int[columns][rows];
 

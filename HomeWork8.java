@@ -5,7 +5,7 @@ public class HomeWork8 {
         Scanner scanner = new Scanner(System.in);
         int num;
         do {
-            System.out.println("Введите число");
+            System.out.println("Введите число:");
             num = scanner.nextInt();
         }while (num <= 0);
         

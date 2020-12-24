@@ -11,7 +11,7 @@ public class HomeWork7 {
         int[] array = new int[scanner.nextInt()];
 
         for (int i = 0; i < array.length; i++) {
-            System.out.println("Введите число которое нужно добавить в массив");
+            System.out.println("Введите число, которое нужно добавить в массив");
             array[i] = scanner.nextInt();
         }
 

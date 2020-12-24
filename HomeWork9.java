@@ -8,7 +8,7 @@ public class HomeWork9 {
         double[] array = new double[size];
         double sum = 0;
         for (int i = 0; i < array.length; i++) {
-            System.out.println("Данные для добавления в массив типа double");
+            System.out.println("Введите данные для добавления в массив типа double");
             array[i] = scanner.nextDouble();
             System.out.println(array[i]);
             sum = sum + array[i];
